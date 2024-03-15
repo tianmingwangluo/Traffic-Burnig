@@ -82,6 +82,6 @@ echo "Speedtest安装成功"
 echo "开始燃烧流量"
 while :
 do
-    speedtest  
+    python3 /usr/local/bin/speedtest  
     sleep 1
 done
